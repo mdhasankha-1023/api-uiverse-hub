@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Universe Hub</title>
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/e0e7cfed0b.js" crossorigin="anonymous"></script>
+    <!-- link bootstrap file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- start header section -->
+    <header>
+        <h1 class="text-center">AI Universe Hub</h1>
+    </header>
+    <!-- end header section -->
+
+    <!-- start main section -->
+    <main>
+
+        <!-- short by Date button -->
+        <section class="d-flex align-items-center justify-content-center my-4">
+            <button id="btn-short-by-date" class="btn btn-danger">Short by Date</button>
+        </section>
+
+        <!-- card -->
+        <section>
+            <div id="cards-container" class="row row-cols-1 row-cols-md-3 g-4 mx-5">
+
+            </div>
+        </section>
+
+        <!-- show all products button -->
+        <section id="show-all" class="my-4 d-flex justify-content-center d-none">
+            <button id="btn-show-all" class="btn btn-danger">Show all</button>
+        </section>
+
+        <!-- details modal -->
+        <section>
+           <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl position-relative py-5">
+          <div class="modal-content">
+
+        <!-- close button -->
+          <button type="button" class="btn-close rounded-circle bg-danger p-3 text-light position-absolute top-0 start-100 translate-middle" data-bs-dismiss="modal" aria-label="Close"></button>
+
+        <!-- modal body -->
+        <div id="details" class="d-flex gap-2 p-5">
+          
+        </div>
+        
+      </div>
+    </div>
+  </div>
+        </section>
+    </main>
+    <!-- end main section -->
+
+    <!-- start footer section -->
+    <footer class="text-center mt-5 mb-2 bg-dark mx-5 rounded text-light py-2">
+        <p>This website developed by <em>Md. Hasan kha</em></p>
+        <small>Copyright&copy; 2023</small>
+    </footer>
+    <!-- end footer section -->
+    
+    <!-- link js file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/api.js"></script>
+</body>
+</html>
